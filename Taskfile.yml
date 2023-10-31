@@ -1,0 +1,16 @@
+version: "3"
+tasks:
+  new-article:
+    silent: true
+    cmds:
+      - mkdir {{.CLI_ARGS}}
+      - touch {{.CLI_ARGS}}/article.md
+      - |
+        cat > {{.CLI_ARGS}}/article.json << EOF
+        {
+          "title": "{{.CLI_ARGS}}",
+          "description": ""
+        }
+        EOF
+    status:
+      - test -d {{.CLI_ARGS}}

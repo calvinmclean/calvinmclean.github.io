@@ -1,0 +1,14 @@
+name: Synchronize and commit
+on:
+  push:
+    branches:
+      - main
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: calvinmclean/article-sync@v1.0.1
+        with:
+          type: synchronize
+          api_key: ${{ secrets.DEV_TO_API_KEY }}

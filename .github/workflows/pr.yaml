@@ -1,0 +1,14 @@
+name: Synchronization summary
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: calvinmclean/article-sync@v1.0.1
+        with:
+          type: summary
+          api_key: ${{ secrets.DEV_TO_API_KEY }}
