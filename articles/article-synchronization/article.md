@@ -79,6 +79,8 @@ Use the [`calvinmclean/article-sync`](https://github.com/marketplace/actions/art
 
 Check out the [Action Marketplace page](https://github.com/marketplace/actions/article-sync) to see the latest setup instructions.
 
+You can see the PR that posted this article [here](https://github.com/calvinmclean/articles/pull/1).
+
 ## Roadmap
 I plan to add a few more features to the CLI and GitHub Action:
 - Attach cover images to articles
