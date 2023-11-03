@@ -3,5 +3,11 @@
     "slug": "manage-dev-articles-with-git-and-github-actions-13md",
     "title": "Manage DEV Articles with Git and GitHub Actions",
     "description": "Introduction   Git is a familiar tool for most, if not all, software engineers. While it is...",
-    "url": "https://dev.to/calvinmclean/manage-dev-articles-with-git-and-github-actions-13md"
+    "url": "https://dev.to/calvinmclean/manage-dev-articles-with-git-and-github-actions-13md",
+    "tags": [
+        "githubactions",
+        "writing",
+        "go",
+        "tutorial"
+    ]
 }

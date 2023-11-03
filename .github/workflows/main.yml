@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: calvinmclean/article-sync@v1.1.1
+      - uses: calvinmclean/article-sync@v1.2.0
         with:
           type: synchronize
           api_key: ${{ secrets.DEV_TO_API_KEY }}
