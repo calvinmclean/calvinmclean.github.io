@@ -1,0 +1,13 @@
+{
+    "id": 1532922,
+    "slug": "stop-using-makefile-use-taskfile-instead-4hm9",
+    "title": "Stop Using Makefile (Use Taskfile Instead)",
+    "description": "Introduction   GNU Make originated as a dependency-tracking build tool that automates the...",
+    "url": "https://dev.to/calvinmclean/stop-using-makefile-use-taskfile-instead-4hm9",
+    "tags": [
+        "tooling",
+        "learning",
+        "productivity",
+        "go"
+    ]
+}
