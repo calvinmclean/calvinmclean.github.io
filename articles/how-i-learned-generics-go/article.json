@@ -4,6 +4,11 @@
     "title": "How I Learned Generics in Go",
     "description": "Introduction   Added in Go 1.18, generics were a controversial and long-awaited addition to...",
     "url": "https://dev.to/calvinmclean/how-i-learned-generics-in-go-3nc6",
-    "tags": [],
-    "gopher": ""
+    "tags": [
+        "go",
+        "programming",
+        "learning"
+    ],
+    "cover_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--MSzodS8c--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/feqx63gf84oeytfazqud.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/4dee3e71881b9149419db4de9d5a79718178957b.png"
 }
