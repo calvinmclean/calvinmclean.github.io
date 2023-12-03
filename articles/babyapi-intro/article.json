@@ -1,11 +1,15 @@
 {
+    "id": 1686287,
+    "slug": "the-easiest-way-to-create-a-rest-api-with-go-20bo",
     "title": "The Easiest Way to Create a REST API With Go",
     "description": "Use babyapi for the fastest path to a REST API with storage and CLI",
-    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/08c9f3164c906a7733dcaeadd040d9a04433d75b.png",
+    "url": "https://dev.to/calvinmclean/the-easiest-way-to-create-a-rest-api-with-go-20bo",
     "tags": [
         "go",
         "showdev",
         "webdev",
         "opensource"
-    ]
+    ],
+    "cover_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--qw8QTgRM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://raw.githubusercontent.com/calvinmclean/calvinmclean.github.io/main/articles/babyapi-intro/cover_image.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/08c9f3164c906a7733dcaeadd040d9a04433d75b.png"
 }
