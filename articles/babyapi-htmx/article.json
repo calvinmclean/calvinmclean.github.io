@@ -1,0 +1,11 @@
+{
+    "title": "How To Build a Web Application with HTMX and Go",
+    "description": "Use babyapi and HTMX to quickly and easily create a TODO app",
+    "tags": [
+        "go",
+        "tutorial",
+        "webdev",
+        "opensource"
+    ],
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/acc3aebbf51d147adefd48c2c0cb58d0d37b51c3.png"
+}
