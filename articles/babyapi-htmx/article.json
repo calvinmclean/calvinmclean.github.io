@@ -1,11 +1,15 @@
 {
+    "id": 1694991,
+    "slug": "how-to-build-a-web-application-with-htmx-and-go-3183",
     "title": "How To Build a Web Application with HTMX and Go",
     "description": "Use babyapi and HTMX to quickly and easily create a TODO app",
+    "url": "https://dev.to/calvinmclean/how-to-build-a-web-application-with-htmx-and-go-3183",
     "tags": [
         "go",
         "tutorial",
         "webdev",
         "opensource"
     ],
+    "cover_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--lC1srNZ---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://raw.githubusercontent.com/calvinmclean/calvinmclean.github.io/main/articles/babyapi-htmx/cover_image.png",
     "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/acc3aebbf51d147adefd48c2c0cb58d0d37b51c3.png"
 }
