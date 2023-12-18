@@ -1,0 +1,11 @@
+{
+    "title": "Run Go + HTMX in the Cloud with Acorn",
+    "description": "Use Acorn to deploy your babyapi backend and HTMX frontend in the cloud",
+    "tags": [
+        "go",
+        "tutorial",
+        "webdev",
+        "cloud"
+    ],
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/995b42b4ea45b7ff5b93b33a0d6f42bc4c139ab3.png"
+}
