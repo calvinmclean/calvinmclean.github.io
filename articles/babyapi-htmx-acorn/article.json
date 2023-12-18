@@ -1,11 +1,15 @@
 {
+    "id": 1700713,
+    "slug": "run-go-htmx-in-the-cloud-with-acorn-5egd",
     "title": "Run Go + HTMX in the Cloud with Acorn",
     "description": "Use Acorn to deploy your babyapi backend and HTMX frontend in the cloud",
+    "url": "https://dev.to/calvinmclean/run-go-htmx-in-the-cloud-with-acorn-5egd",
     "tags": [
         "go",
         "tutorial",
         "webdev",
         "cloud"
     ],
+    "cover_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--p5klAO79--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://raw.githubusercontent.com/calvinmclean/calvinmclean.github.io/main/articles/babyapi-htmx-acorn/cover_image.png",
     "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/995b42b4ea45b7ff5b93b33a0d6f42bc4c139ab3.png"
 }
