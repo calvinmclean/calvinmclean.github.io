@@ -1,5 +1,6 @@
 # Articles
 
+* [Run Go + HTMX in the Cloud with Acorn](articles/babyapi-htmx-acorn/article.md)
 * [How To Build a Web Application with HTMX and Go](articles/babyapi-htmx/article.md)
 * [The Easiest Way to Create a REST API With Go](articles/babyapi-intro/article.md)
 * [How I Learned Generics in Go](articles/how-i-learned-generics-go/article.md)
