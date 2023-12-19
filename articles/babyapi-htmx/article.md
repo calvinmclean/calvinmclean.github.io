@@ -301,4 +301,6 @@ I encourage you to continue experimenting with `babyapi` and HTMX to learn more!
   - Allow "un-completing" a TODO
   - Add a `CreatedAt` field to the `TODO` struct and sort by this date (you can implement `render.Binder` for `TODO` to automatically set `CreatedAt` on new items)
 
+Update: I wrote another article showing how to deploy this example in the cloud in minutes using Acorn. [Check it out here!](https://dev.to/calvinmclean/run-go-htmx-in-the-cloud-with-acorn-5egd)
+
 Thanks for reading!
