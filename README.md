@@ -1,7 +1,7 @@
 # Calvin McLean
 
-[![GitHub Pages Site](https://img.shields.io/badge/View-GitHub_Pages-blue?style=for-the-badge)](https://calvinmclean.github.io/#/)
-[![dev.to](https://img.shields.io/badge/View-Dev.to-yellow?style=for-the-badge)](https://calvinmclean.github.io/#/)
+[![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://calvinmclean.github.io/#/)
+[![dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/calvinmclean)
 
 This repository will eventually contain some more information about myself, my interests, and experience.
 Currently, it just contains articles that I have written.
