@@ -8,3 +8,8 @@
     * [The Magic of Interfaces in Go](articles/implicit-interfaces/article.md)
     * [Taking Notes to Improve Your Productivity](articles/note-taking/article.md)
     * [Stop Using Makefile (Use Taskfile Instead)](articles/taskfile/article.md)
+* [Projects](projects_homepage.md)
+  * [`babyapi`](projects/babyapi.md)
+  * [`automated-garden`](projects/automated_garden.md)
+  * [`article-sync`](projects/article_sync.md)
+  * [`tic-tac-go`](projects/tic_tac_go.md)
