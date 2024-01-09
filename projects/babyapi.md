@@ -7,3 +7,11 @@
 I got tired of re-writing boilerplate code for HTTP handling in my `automated-garden` project. I also was interested in learning about generics in Go, so I extracted some of the generic behaviors into reusable methods. This eventually evolved into `babyapi`.
 
 You can read more about `babyapi` in [this article that I wrote](https://dev.to/calvinmclean/the-easiest-way-to-create-a-rest-api-with-go-20bo) and the [GitHub repository](https://github.com/calvinmclean/babyapi).
+
+Use [Acorn](acorn.io) to deploy some of my `babyapi` examples now!
+
+### Event RSVP Example
+[![Event RSVP Example](https://acorn.io/v1-ui/run/badge?image=ghcr.io+calvinmclean+babyapi-event-rsvp-acorn&ref=calvinmclean&style=for-the-badge&color=brightgreen)](https://acorn.io/run/ghcr.io/calvinmclean/babyapi-event-rsvp-acorn?ref=calvinmclean)
+
+### TODO App Example
+[![TODO App Example](https://acorn.io/v1-ui/run/badge?image=ghcr.io+calvinmclean+babyapi-htmx-acorn&ref=calvinmclean&style=for-the-badge&color=brightgreen)](https://acorn.io/run/ghcr.io/calvinmclean/babyapi-htmx-acorn?ref=calvinmclean)
