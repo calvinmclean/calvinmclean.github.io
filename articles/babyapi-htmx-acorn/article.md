@@ -1,5 +1,7 @@
 ## Introduction
 
+**Note: Since writing this article, the Acorn SaaS product has been shutdown.**
+
 In [a recent article](https://dev.to/calvinmclean/how-to-build-a-web-application-with-htmx-and-go-3183), I demonstrated how [`babyapi`](https://github.com/calvinmclean/babyapi), a library I created, makes it easy to write a TODO app with a RESTful API and HTMX frontend using only 150 lines of code. `babyapi` abstracts the HTTP handling based on a provided struct and serves HTMX templates for a dynamic frontend.
 
 It works great in a tutorial, but you might have been left thinking: "what about persistent storage and running in the cloud?"
