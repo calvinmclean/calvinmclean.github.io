@@ -12,4 +12,4 @@
   * [`babyapi`](projects/babyapi.md)
   * [`automated-garden`](projects/automated_garden.md)
   * [`article-sync`](projects/article_sync.md)
-  * [`tic-tac-go`](projects/tic_tac_go.md)
+  * [and more...](projects/more.md)
