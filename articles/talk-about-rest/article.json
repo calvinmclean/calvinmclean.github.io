@@ -1,10 +1,14 @@
 {
+    "id": 1839178,
+    "slug": "lets-talk-about-rest-1kjl",
     "title": "Let's Talk About REST...",
     "description": "Build intuitive and self-documenting REST APIs",
-    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/4efcc6098640655a4d6cd5df92a630f840f87538.png",
+    "url": "https://dev.to/calvinmclean/lets-talk-about-rest-1kjl",
     "tags": [
         "webdev",
         "softwaredevelopment",
         "learning"
-    ]
+    ],
+    "cover_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--UgEGAp1S--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://raw.githubusercontent.com/calvinmclean/calvinmclean.github.io/main/articles/talk-about-rest/cover_image.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/4efcc6098640655a4d6cd5df92a630f840f87538.png"
 }
