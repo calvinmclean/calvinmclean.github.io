@@ -1,0 +1,6 @@
+{
+  "title": "Test-driven API Development in Go",
+  "description": "This article explores TDD and provides a step-by-step example for implementing it at the API-level in Go",
+  "tags": ["go", "testing", "tutorial", "tdd"],
+  "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/051fda28e20f83c2fdbd7388e41aa65c452d88a8.png"
+}
