@@ -1,0 +1,64 @@
+---
+version: 2
+interactions:
+    - id: 0
+      request:
+        proto: HTTP/1.1
+        proto_major: 1
+        proto_minor: 1
+        content_length: 14
+        transfer_encoding: []
+        trailer: {}
+        host: cleanuri.com
+        remote_addr: ""
+        request_uri: ""
+        body: url=github.com
+        form:
+            url:
+                - github.com
+        headers:
+            Content-Type:
+                - application/x-www-form-urlencoded
+        url: https://cleanuri.com/api/v1/shorten
+        method: POST
+      response:
+        proto: HTTP/2.0
+        proto_major: 2
+        proto_minor: 0
+        transfer_encoding: []
+        trailer: {}
+        content_length: -1
+        uncompressed: false
+        body: '{"error":"API Error: URL is invalid (check #1)"}'
+        headers:
+            Alt-Svc:
+                - h3=":443"; ma=86400
+            Cf-Cache-Status:
+                - DYNAMIC
+            Cf-Ray:
+                - 8a1b83987e46dbe9-LAX
+            Content-Security-Policy:
+                - 'default-src ''self'' http: https: data: blob: ''unsafe-inline'''
+            Content-Type:
+                - application/json;charset=utf-8
+            Date:
+                - Thu, 11 Jul 2024 20:23:55 GMT
+            Nel:
+                - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Referrer-Policy:
+                - same-origin
+            Report-To:
+                - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Qck7ikmR3eOK%2F%2Bcgz%2FPirHsbQAeax0%2B%2B2P%2BpE7m8I5Kb9Z58fgLPGrCjLKsxdnRjgD6irrtHFcVeLZAPg0DVsMBmdOhKSWNOTH39hVC1YyK%2FHL9g5zBgUfQ8EciOcxs%3D"}],"group":"cf-nel","max_age":604800}'
+            Server:
+                - cloudflare
+            Strict-Transport-Security:
+                - max-age=31536000; includeSubDomains; preload
+            X-Content-Type-Options:
+                - nosniff
+            X-Frame-Options:
+                - SAMEORIGIN
+            X-Xss-Protection:
+                - 1; mode=block
+        status: 400 Bad Request
+        code: 400
+        duration: 651.719333ms
