@@ -1,0 +1,128 @@
+---
+version: 2
+interactions:
+  - id: 0
+    request:
+      proto: HTTP/1.1
+      proto_major: 1
+      proto_minor: 1
+      content_length: 39
+      transfer_encoding: []
+      trailer: {}
+      host: cleanuri.com
+      remote_addr: ""
+      request_uri: ""
+      body: url=https%3A%2F%2Fdev.to%2Fcalvinmclean
+      form:
+        url:
+          - https://dev.to/calvinmclean
+      headers:
+        Content-Type:
+          - application/x-www-form-urlencoded
+      url: https://cleanuri.com/api/v1/shorten
+      method: POST
+    response:
+      proto: HTTP/2.0
+      proto_major: 2
+      proto_minor: 0
+      transfer_encoding: []
+      trailer: {}
+      content_length: -1
+      uncompressed: true
+      headers:
+        Alt-Svc:
+          - h3=":443"; ma=86400
+        Cf-Cache-Status:
+          - DYNAMIC
+        Cf-Ray:
+          - 8a1c04950f370feb-LAX
+        Content-Security-Policy:
+          - "default-src 'self' http: https: data: blob: 'unsafe-inline'"
+        Content-Type:
+          - application/json;charset=utf-8
+        Date:
+          - Thu, 11 Jul 2024 21:51:58 GMT
+        Nel:
+          - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+        Referrer-Policy:
+          - same-origin
+        Report-To:
+          - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ABeC%2BdJ%2FWhSqYiBqxuVmOGF4Fvyyl8k9M9kdCAZ9bonVaIvdg4vchM8E9Yj%2Bj2J5j9kz4zLFnaWsIwO4B7vfbkVM4Z9cjhP6cGALCEbIC74KbuQxEaJuca4ZEKB5Fi4%3D"}],"group":"cf-nel","max_age":604800}'
+        Server:
+          - cloudflare
+        Strict-Transport-Security:
+          - max-age=31536000; includeSubDomains; preload
+        Vary:
+          - Accept-Encoding
+        X-Content-Type-Options:
+          - nosniff
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-Xss-Protection:
+          - 1; mode=block
+      status: 429 Too Many Requests
+      code: 429
+      duration: 100ms
+  - id: 1
+    request:
+      proto: HTTP/1.1
+      proto_major: 1
+      proto_minor: 1
+      content_length: 39
+      transfer_encoding: []
+      trailer: {}
+      host: cleanuri.com
+      remote_addr: ""
+      request_uri: ""
+      body: url=https%3A%2F%2Fdev.to%2Fcalvinmclean
+      form:
+        url:
+          - https://dev.to/calvinmclean
+      headers:
+        Content-Type:
+          - application/x-www-form-urlencoded
+      url: https://cleanuri.com/api/v1/shorten
+      method: POST
+    response:
+      proto: HTTP/2.0
+      proto_major: 2
+      proto_minor: 0
+      transfer_encoding: []
+      trailer: {}
+      content_length: -1
+      uncompressed: true
+      body: '{"result_url":"https:\/\/cleanuri.com\/7nPmQk"}'
+      headers:
+        Alt-Svc:
+          - h3=":443"; ma=86400
+        Cf-Cache-Status:
+          - DYNAMIC
+        Cf-Ray:
+          - 8a1c04950f370feb-LAX
+        Content-Security-Policy:
+          - "default-src 'self' http: https: data: blob: 'unsafe-inline'"
+        Content-Type:
+          - application/json;charset=utf-8
+        Date:
+          - Thu, 11 Jul 2024 21:51:58 GMT
+        Nel:
+          - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+        Referrer-Policy:
+          - same-origin
+        Report-To:
+          - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ABeC%2BdJ%2FWhSqYiBqxuVmOGF4Fvyyl8k9M9kdCAZ9bonVaIvdg4vchM8E9Yj%2Bj2J5j9kz4zLFnaWsIwO4B7vfbkVM4Z9cjhP6cGALCEbIC74KbuQxEaJuca4ZEKB5Fi4%3D"}],"group":"cf-nel","max_age":604800}'
+        Server:
+          - cloudflare
+        Strict-Transport-Security:
+          - max-age=31536000; includeSubDomains; preload
+        Vary:
+          - Accept-Encoding
+        X-Content-Type-Options:
+          - nosniff
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-Xss-Protection:
+          - 1; mode=block
+      status: 200 OK
+      code: 200
+      duration: 484.686959ms
