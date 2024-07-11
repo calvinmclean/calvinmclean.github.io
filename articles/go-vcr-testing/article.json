@@ -1,6 +1,15 @@
 {
-  "title": "Effortless HTTP Client Testing in Go",
-  "description": "Explore the benefits of VCR testing in Go with dnaeon/go-vcr",
-  "tags": ["go", "testing", "tutorial", "learning"],
-  "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/45013e1bd5d970f1ba1e62477a8f4b7fb6301573.png"
+    "id": 1920278,
+    "slug": "effortless-http-client-testing-in-go-4d75",
+    "title": "Effortless HTTP Client Testing in Go",
+    "description": "Explore the benefits of VCR testing in Go with dnaeon/go-vcr",
+    "url": "https://dev.to/calvinmclean/effortless-http-client-testing-in-go-4d75",
+    "tags": [
+        "go",
+        "testing",
+        "tutorial",
+        "learning"
+    ],
+    "cover_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--O-mfj96a--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://raw.githubusercontent.com/calvinmclean/calvinmclean.github.io/main/articles/go-vcr-testing/cover_image.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/45013e1bd5d970f1ba1e62477a8f4b7fb6301573.png"
 }
