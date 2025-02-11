@@ -14,4 +14,5 @@
   * [`babyapi`](projects/babyapi.md)
   * [`automated-garden`](projects/automated_garden.md)
   * [`article-sync`](projects/article_sync.md)
+  * [AZStocker](projects/azstocker.md)
   * [and more...](projects/more.md)
