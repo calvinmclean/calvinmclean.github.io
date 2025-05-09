@@ -1,6 +1,15 @@
 {
-  "title": "Improve Your Go Applications with Byte-level Data Optimization",
-  "description": "Learn about low-level binary data optimizations can improve your programs",
-  "tags": ["go", "tutorial", "learning", "programming"],
-  "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/4137fa4731a6f2fc929f4b422ffc21fd8b57bee6.png"
+    "id": 2470430,
+    "slug": "improve-your-go-applications-with-byte-level-data-optimization-1391",
+    "title": "Improve Your Go Applications with Byte-level Data Optimization",
+    "description": "Learn about low-level binary data optimizations can improve your programs",
+    "url": "https://dev.to/calvinmclean/improve-your-go-applications-with-byte-level-data-optimization-1391",
+    "tags": [
+        "go",
+        "tutorial",
+        "learning",
+        "programming"
+    ],
+    "cover_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fcalvinmclean%2Fcalvinmclean.github.io%2Fmain%2Farticles%2Fbinary-data-optimization%2Fcover_image.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/4137fa4731a6f2fc929f4b422ffc21fd8b57bee6.png"
 }
