@@ -1,5 +1,3 @@
-# Binary Data Optimization
-
 [Check out the full code referenced in this article on Github!](https://github.com/calvinmclean/calvinmclean.github.io/blob/main/articles/binary-data-optimization/code)
 
 Almost any application requires a way to store or transfer data. We often choose formats like JSON or YAML that are easy to read and modify. These formats are built to be generic to work in a variety of usecases, which means they are not heavily optimized for data size or fast encoding/decoding.
