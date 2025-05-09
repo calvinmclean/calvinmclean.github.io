@@ -1,0 +1,26 @@
+syntax = "proto3";
+package tutorial;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "./gen";
+
+message Data {
+  uint32 starter_grams = 1;
+  uint32 flour_grams = 2;
+  uint32 water_grams = 3;
+  FlourType flour_type = 4;
+  google.protobuf.Timestamp time = 5;
+}
+
+enum FlourType {
+   	FlourTypeUnknown = 0;
+	FlourTypeAllPurpose = 1;
+	FlourTypeWholeWheat = 2;
+	FlourTypeRye = 3;
+	FlourTypeBread = 4;
+}
+
+message DataList {
+  repeated Data data = 1;
+}
