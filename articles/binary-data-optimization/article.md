@@ -1,4 +1,4 @@
-[Check out the full code referenced in this article on Github!](https://github.com/calvinmclean/calvinmclean.github.io/blob/main/articles/binary-data-optimization/code)
+[Check out the full code referenced in this article on Github!](https://github.com/calvinmclean/calvinmclean.github.io/blob/main/examples/binary-data-optimization)
 
 Almost any application requires a way to store or transfer data. We often choose formats like JSON or YAML that are easy to read and modify. These formats are built to be generic to work in a variety of usecases, which means they are not heavily optimized for data size or fast encoding/decoding.
 
@@ -387,4 +387,4 @@ Now what if you wanted to balance flexibility, extensibility, and performance? T
 
 If you have the ability to use rigidly-structured data, I recommend using Protobuf before rolling your own custom binary solution. However, it's still good to learn about how it works from scratch, and you can still squeeze out more optimizations if it's really necessary. Low-level concepts like binary data and bytes can be challenging to work with, but understanding them can increase your understanding of how programs work and how memory impacts performance. Knowing how things work will give you more tools and options for improving performance and efficiency of your applications.
 
-[Check out the full code and tests on Github!](https://github.com/calvinmclean/calvinmclean.github.io/blob/main/articles/binary-data-optimization/code)
+[Check out the full code and tests on Github!](https://github.com/calvinmclean/calvinmclean.github.io/blob/main/examples/binary-data-optimization)
