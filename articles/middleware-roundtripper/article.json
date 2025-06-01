@@ -1,0 +1,6 @@
+{
+  "title": "Middleware and RoundTrippers in Go",
+  "description": "Learn about Go's reusable HTTP components for server and client",
+  "tags": ["programming", "go", "learning"],
+  "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/441c3133e109270bb05e02274ae58ad70dd3de0b.png"
+}

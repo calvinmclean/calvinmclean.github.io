@@ -6,15 +6,14 @@ import (
 	"log/slog"
 	"net/http"
 	"net/http/httptest"
-	"strings"
 	"testing"
 )
 
 func TestGood(t *testing.T) {
 	handler := SequentialMiddleware(
 		RecoveryMiddleware,
-		AuthMiddleware,
 		LoggerMiddleware,
+		AuthMiddleware,
 		CacheMiddleware,
 	)(helloHandler)
 
@@ -86,62 +85,20 @@ func TestGood(t *testing.T) {
 	})
 }
 
-func TestBad_ClientAndServerLogPassword(t *testing.T) {
-	serverHandler := NewTestLogHandler()
-	clientHandler := NewTestLogHandler()
-	serverLogger = slog.New(serverHandler)
-	clientLogger = slog.New(clientHandler)
-
-	// The server runs the LoggerMiddleware before the AuthMiddleware, which performs auth and then sanitizes the request
-	handler := SequentialMiddleware(
-		LoggerMiddleware,
-		RecoveryMiddleware,
-		AuthMiddleware,
-		CacheMiddleware,
-	)(helloHandler)
-
-	server := httptest.NewServer(handler)
-	defer server.Close()
-
-	// The client adds authentication to the request before logging and caching it
-	client := NewClientWithRoundTrippers(
-		AuthRoundTripper,
-		LogRoundTripper,
-		CacheRoundTripper,
-	)
-
-	body, resp, err := doTestRequest(client, server.URL)
-	if err != nil {
-		t.Errorf("unexpected error: %v", err)
-	}
-
-	expectations{
-		StatusCode: http.StatusOK,
-		Body:       "Hello, World!\n",
-	}.assert(t, body, resp)
-
-	if !serverHandler.loggedPassword {
-		t.Error("expected server password log")
-	}
-	if !clientHandler.loggedPassword {
-		t.Error("expected client password log")
-	}
-}
-
 func TestBad_ServerCacheExposesAccess(t *testing.T) {
 	// The server will cache responses before checking authentication. After caching a response, the next request
 	// will receive this response even if it does not authenticate successfully
 	handler := SequentialMiddleware(
 		CacheMiddleware,
-		AuthMiddleware,
 		LoggerMiddleware,
+		AuthMiddleware,
 		RecoveryMiddleware,
 	)(helloHandler)
 
 	server := httptest.NewServer(handler)
 	defer server.Close()
 
-	t.Run("CreateInitialRequest_WithAuth", func(t *testing.T) {
+	t.Run("PopulateCacheWithAuth", func(t *testing.T) {
 		client := NewClientWithRoundTrippers(
 			LogRoundTripper,
 			AuthRoundTripper,
@@ -177,8 +134,7 @@ func TestBad_ServerCacheExposesAccess(t *testing.T) {
 
 type TestLogHandler struct {
 	slog.Handler
-	records        []slog.Record
-	loggedPassword bool
+	records []slog.Record
 }
 
 func NewTestLogHandler() *TestLogHandler {
@@ -186,9 +142,6 @@ func NewTestLogHandler() *TestLogHandler {
 }
 
 func (h *TestLogHandler) Handle(ctx context.Context, record slog.Record) error {
-	if strings.Contains(record.Message, "password") {
-		h.loggedPassword = true
-	}
 	h.records = append(h.records, record)
 	return h.Handler.Handle(ctx, record)
 }

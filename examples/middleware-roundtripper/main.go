@@ -77,6 +77,7 @@ func CacheMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		cacheKey := fmt.Sprintf("%s_%s", r.Method, r.URL.String())
 
+		// use cached response of the key matches
 		if cached, ok := cache[cacheKey]; ok {
 			serverLogger.Info("SERVER using cached response")
 			w.Header().Add("X-Server-Cached", "true")
@@ -86,10 +87,14 @@ func CacheMiddleware(next http.HandlerFunc) http.HandlerFunc {
 		}
 
 		var buf bytes.Buffer
+		// responseWriter is an implementation of the http.ResponseWriter
+		// interface that can intercept the response body
 		writer := &responseWriter{ResponseWriter: w, buffer: &buf}
 
+		// Call the main HTTP handler
 		next(writer, r)
 
+		// Cache the response
 		cache[cacheKey] = buf.Bytes()
 	}
 }
@@ -97,10 +102,16 @@ func CacheMiddleware(next http.HandlerFunc) http.HandlerFunc {
 func LoggerMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		start := time.Now()
-		serverLogger.Info(fmt.Sprintf("SERVER Request: %s %s %v", r.Method, r.URL.Path, r.Header))
+		serverLogger.Info(fmt.Sprintf("SERVER Request: %s %s", r.Method, r.URL.Path))
+
 		var buf bytes.Buffer
+		// responseWriter is an implementation of the http.ResponseWriter
+		// interface that can intercept the response body
 		writer := &responseWriter{ResponseWriter: w, buffer: &buf}
+
+		// Call the main HTTP handler
 		next(writer, r)
+
 		serverLogger.Info(fmt.Sprintf("SERVER Response: %s %s %d %s", r.Method, r.URL.Path, writer.statusCode, time.Since(start)))
 	}
 }
@@ -178,7 +189,10 @@ func LogRoundTripper(next http.RoundTripper) http.RoundTripper {
 	return RoundTripperFunc(func(r *http.Request) (*http.Response, error) {
 		clientLogger.Info(fmt.Sprintf("CLIENT Request: %s %s %v", r.Method, r.URL, r.Header))
 		start := time.Now()
+
+		// Send the actual request
 		resp, err := next.RoundTrip(r)
+
 		duration := time.Since(start)
 		if err != nil {
 			clientLogger.Error(fmt.Sprintf("CLIENT Request failed after %s: %v", duration, err))
@@ -227,19 +241,16 @@ func CacheRoundTripper(next http.RoundTripper) http.RoundTripper {
 	return RoundTripperFunc(func(r *http.Request) (*http.Response, error) {
 		cacheKey := fmt.Sprintf("%s_%s", r.Method, r.URL.String())
 
-		// Detect password for demo
-		password := r.Header.Get("Authorization")
-		if password != "" {
-			clientLogger.Warn("are you sure that you want to cache the password?", "password", password)
-		}
-
 		cachedResponse, ok := cache[cacheKey]
 		if ok {
 			clientLogger.Info("CLIENT using cached response")
 			return cachedResponse.Response(), nil
 		}
 
+		// send the actual request
 		resp, err := next.RoundTrip(r)
+
+		// cache the response
 		cache[cacheKey] = newCachedResponse(resp)
 		return resp, err
 	})
