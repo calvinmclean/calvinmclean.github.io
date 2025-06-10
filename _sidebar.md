@@ -15,4 +15,5 @@
   * [`automated-garden`](projects/automated_garden.md)
   * [`article-sync`](projects/article_sync.md)
   * [AZStocker](projects/azstocker.md)
+  * [`walks-of-italy`](projects/walks_of_italy.md)
   * [and more...](projects/more.md)
