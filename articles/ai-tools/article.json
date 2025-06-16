@@ -1,6 +1,15 @@
 {
-  "title": "How to Implement LLM Tool-calling with Go and Ollama",
-  "description": "Learn about LLM tool-calling and how to use it in Go",
-  "tags": ["go", "tutorial", "learning", "programming"],
-  "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/e07e1957fe57727cebfa699439eada23237e5092.png"
+    "id": 2595370,
+    "slug": "how-to-implement-llm-tool-calling-with-go-and-ollama-237g",
+    "title": "How to Implement LLM Tool-calling with Go and Ollama",
+    "description": "Learn about LLM tool-calling and how to use it in Go",
+    "url": "https://dev.to/calvinmclean/how-to-implement-llm-tool-calling-with-go-and-ollama-237g",
+    "tags": [
+        "go",
+        "tutorial",
+        "learning",
+        "programming"
+    ],
+    "cover_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fcalvinmclean%2Fcalvinmclean.github.io%2Fmain%2Farticles%2Fai-tools%2Fcover_image.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/e07e1957fe57727cebfa699439eada23237e5092.png"
 }
