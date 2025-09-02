@@ -29,12 +29,12 @@ VS Code automatically runs the `gopls` server for Go projects. A simple update t
 - Alternatively, just edit `.vscode/settings.json` with this content:
   ```json
   {
-	  "servers": {
-  		"gopls": {
-	  		"url": "http://localhost:8092",
-		  	"type": "http"
+    "servers": {
+      "gopls": {
+        "url": "http://localhost:8092",
+        "type": "http"
       }
-	  }
+    }
   }
   ```
 
@@ -44,7 +44,7 @@ The Go team provides a base instruction to improve how agents use the feature. S
 
 - First, create the instructions directory
   ```shell
-  mkdir -p.github/instructions
+  mkdir -p .github/instructions
   ```
 - Then, start by telling VS Code to use this for Go files:
   ```shell
