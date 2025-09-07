@@ -2,7 +2,7 @@ module customers
 
 go 1.24
 
-require github.com/calvinmclean/babyapi v0.30.0
+require github.com/calvinmclean/babyapi v0.31.0
 
 require (
 	github.com/FZambia/sentinel v1.1.1 // indirect
