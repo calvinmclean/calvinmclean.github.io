@@ -6,8 +6,6 @@ github.com/bahlo/generic-list-go v0.2.0 h1:5sz/EEAK+ls5wF+NeqDpk5+iNdMDXrh3z3nPn
 github.com/bahlo/generic-list-go v0.2.0/go.mod h1:2KvAjgMlE5NNynlg/5iLrrCCZ2+5xWbdbCW3pNTGyYg=
 github.com/buger/jsonparser v1.1.1 h1:2PnMjfWD7wBILjqQbt530v576A/cAbQvEW9gGIpYMUs=
 github.com/buger/jsonparser v1.1.1/go.mod h1:6RYKKt7H4d4+iWqouImQ9R2FZql3VbhNgx27UK13J/0=
-github.com/calvinmclean/babyapi v0.30.0 h1:oOJ9CTaLAz2ZXFipMYyxWDR8Zvomos4SpUaveLKFl4g=
-github.com/calvinmclean/babyapi v0.30.0/go.mod h1:6jt5eKhxpZ8kbuNcn3lB5b71LtrxXb0igBfFu5/UB7s=
 github.com/calvinmclean/babyapi v0.31.0 h1:VwN3A4UUW9+Sj8Ri57cGLLbfkgZU8LgL3S/hdWCDodU=
 github.com/calvinmclean/babyapi v0.31.0/go.mod h1:6jt5eKhxpZ8kbuNcn3lB5b71LtrxXb0igBfFu5/UB7s=
 github.com/cpuguy83/go-md2man/v2 v2.0.3/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
@@ -55,6 +53,8 @@ github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsT
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/tarmac-project/hord v0.6.0 h1:ifrJ6aUV2N9I+YAPnFvMO2eMgjE/Ki+ixaXUFAHEJTI=
 github.com/tarmac-project/hord v0.6.0/go.mod h1:b46vLVFfL9G/WG5BYNTNoordvQ9wQ+ibs1/Fn4v0vkE=
+github.com/tarmac-project/hord v0.8.2 h1:+rY5s8tnTZAaa8fVeDHlzeyMEYNhNz4JLNKDclB803g=
+github.com/tarmac-project/hord v0.8.2/go.mod h1:b46vLVFfL9G/WG5BYNTNoordvQ9wQ+ibs1/Fn4v0vkE=
 github.com/tarmac-project/hord/drivers/hashmap v0.6.0 h1:B0qvQGGxylYEmDFEW0zbYuLyi0YekQy+3B/QfOpi+34=
 github.com/tarmac-project/hord/drivers/hashmap v0.6.0/go.mod h1:omkFLNmyQrT0koqI8Ji4eswU1Ou8af+EMMuKSumV85Q=
 github.com/tarmac-project/hord/drivers/redis v0.6.0 h1:jqRydEdOGQxo2GUspOmNk77ebuQkfgYsCMMZ1aRM0io=
