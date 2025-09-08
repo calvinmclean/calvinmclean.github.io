@@ -17,7 +17,7 @@ module customers
 go 1.24
 
 require (
-	github.com/calvinmclean/babyapi v0.30.0
+	github.com/calvinmclean/babyapi v0.31.0
 )
 ```
 
@@ -70,6 +70,8 @@ The application froze and MCP is not working after restart. It says it's not in 
 
 - This time, I got a really complete implementation including a file storage implementation of the Storage interface. All of this with only 23k tokens.
 - It's interesting to see how this is inconsistent and very dependent on the prompt and how it chooses to being the project
+- It looks like the MCP `go_package_api` function responds with all function signatures and doc comments, similar to my RAG example. When this tool is used early on, it works really well, similar to the documentation. I think getting the pkg.go.dev document is better because it includes some examples of KVStorage, EndDateable, and MCP. This is probably why it insists on using an MCP.
+- I think this works better in a large project where there are many smaller packages that can be described, or to use the `go_symbol_references` tool to find uses of a function or type
 
 
 ## Godoc RAG
