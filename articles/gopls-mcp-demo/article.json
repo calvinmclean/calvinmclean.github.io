@@ -1,6 +1,14 @@
 {
-  "title": "Experiment with gopls MCP: Improving Agent Context for Go Development",
-  "description": "Join me while I learn about the gopls MCP and see how (or if) it can improve your agentic development and reduce context usage.",
-  "tags": ["go", "tutorial", "ai"],
-  "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/6bea50eb4b234e091ccac017cd9587bb5a68a717.png"
+    "id": 2830527,
+    "slug": "experiment-with-gopls-mcp-improving-agent-context-for-go-development-37bo",
+    "title": "Experiment with gopls MCP: Improving Agent Context for Go Development",
+    "description": "Join me while I learn about the gopls MCP and see how (or if) it can improve your agentic development and reduce context usage.",
+    "url": "https://dev.to/calvinmclean/experiment-with-gopls-mcp-improving-agent-context-for-go-development-37bo",
+    "tags": [
+        "go",
+        "tutorial",
+        "ai"
+    ],
+    "cover_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fcalvinmclean%2Fcalvinmclean.github.io%2Fmain%2Farticles%2Fgopls-mcp-demo%2Fcover_image.png",
+    "gopher": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/6bea50eb4b234e091ccac017cd9587bb5a68a717.png"
 }
