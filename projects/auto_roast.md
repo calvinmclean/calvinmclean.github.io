@@ -8,4 +8,4 @@ The project features a desktop UI built with [Fyne](https://fyne.io/), a Go-base
 
 The firmware for microcontrollers is built using [TinyGo](https://tinygo.org/).
 
-Auto-Roast integrates with [TWChart](/projects/twchart.html) to record temperature data and overlay events and notes, enabling visualization of roast profiles, adjustments, and logs for better analysis.
+Auto-Roast integrates with [TWChart](/projects/twchart/) to record temperature data and overlay events and notes, enabling visualization of roast profiles, adjustments, and logs for better analysis.

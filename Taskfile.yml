@@ -1,5 +1,16 @@
 version: "3"
 tasks:
+  generate-content:
+    cmds:
+      - go run ./cmd/generate-content
+  serve:
+    deps: [generate-content]
+    cmds:
+      - hugo server --disableFastRender
+  build:
+    deps: [generate-content]
+    cmds:
+      - hugo --minify
   new-article:
     silent: true
     cmds:

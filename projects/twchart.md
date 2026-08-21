@@ -8,4 +8,4 @@ The original inspiration and use-case for this was tracking bread-making since t
 
 TWChart parses a flexible notes format that supports timestamps or elapsed durations, probe assignments, and chronological stages. This enables visualization of processes like coffee roasting, bread making, or BBQ with temperature data overlaid with custom events and annotations.
 
-This project is integrated with [Auto-Roast](/projects/auto_roast.html) for coffee roasting visualization.
+This project is integrated with [Auto-Roast](/projects/auto_roast/) for coffee roasting visualization.

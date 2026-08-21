@@ -1,0 +1,46 @@
+baseURL = "https://calvinmclean.github.io/"
+languageCode = "en-us"
+title = "Calvin McLean"
+theme = "github.com/1bl4z3r/hermit-V2"
+contentDir = ".hugo-content"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 12
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Software engineer building open-source tools and writing about Go, developer productivity, and practical software development."
+  homeSubtitle = "Software engineer focused on open-source tools and developer productivity."
+  code_copy_button = true
+  scrollToTop = true
+  footerHideThemeName = false
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/calvinmclean"
+
+  [[params.socialLinks]]
+    name = "dev"
+    url = "https://dev.to/calvinmclean"
+
+[params.author]
+  name = "Calvin McLean"
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 20
